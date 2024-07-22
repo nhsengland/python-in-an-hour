@@ -6,12 +6,12 @@
 
 
 # Requests - used to collect data
-requests==2.32.3
+requests==2.31.0
 
 # Python version = 3.10.*
 
 # Data manipulation
-pandas==2.2.2
+pandas==2.0.3
 
 # notebooks
 jupyter==1.0.0
