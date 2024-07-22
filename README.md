@@ -7,6 +7,9 @@ The idea of this session is to give you a very brief introduction to what python
 It's designed to be run in Google Colab: <a target="_blank" href="https://colab.research.google.com/github/nhsengland/HACA-2024-python-in-an-hour/blob/main/rap_example_pipeline_python.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
+
+there is also a second notebook, which shows how to use `dtale` to explore data
+
 -----------
 
 ## Description
