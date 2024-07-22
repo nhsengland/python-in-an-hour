@@ -12,6 +12,7 @@
 
 *.ipynb
 !rap_example_pipeline_python.ipynb
+!Visualising_data_with_dtale.ipynb
 *.ipynb_checkpoints
 *.xlsx
 *.xls
