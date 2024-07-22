@@ -1,33 +1,18 @@
 # The libraries used by your code should be listed here
 # See https://nhsd-git.digital.nhs.uk/data-services/analytics-service/iuod/rap-community-of-practice/-/blob/master/python/project-structure-and-packaging.md
 
-# PySpark
-pyspark
+# The libraries used by your code should be listed here
+# See https://nhsd-git.digital.nhs.uk/data-services/analytics-service/iuod/rap-community-of-practice/-/blob/master/python/project-structure-and-packaging.md
+
 
 # Requests - used to collect data
-requests
+requests==2.32.3
 
 # Python version = 3.10.*
 
 # Data manipulation
-numpy
-pandas
+pandas==2.2.2
 
-# SQL connections
-pyodbc
-sqlalchemy
+# notebooks
+jupyter==1.0.0
 
-# Excel output
-#openpyxl==3.0.9
-
-# Testing
-pytest
-pytest-html
-
-# Dependencies of the above packages
-#ipykernel==6.9.0
-#nbformat==5.1.3
-toml
-#pathlib2==2.3.6
-
-jupyter
