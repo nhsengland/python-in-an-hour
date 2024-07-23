@@ -9,6 +9,10 @@ It's designed to be run in Google Colab: <a target="_blank" href="https://colab.
 </a>
 
 there is also a second notebook, which shows how to use `dtale` to explore data
+ 
+ dtale tutorial: <a target="_blank" href="https://colab.research.google.com/github/nhsengland/HACA-2024-python-in-an-hour/blob/main/Visualising_data_with_dtale.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 -----------
 
