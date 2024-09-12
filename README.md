@@ -2,13 +2,13 @@
 
 This repo will give you a very brief introduction to what Python can do for you as someone who works with data, and some of the advantages of using Python over tools like Excel.
 
-It's designed to be run in Google Colab: <a target="_blank" href="https://colab.research.google.com/github/nhsengland/HACA-2024-python-in-an-hour/blob/main/rap_example_pipeline_python.ipynb">
+It's designed to be run in Google Colab: <a target="_blank" href="https://colab.research.google.com/github/nhsengland/python-in-an-hour/blob/main/rap_example_pipeline_python.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
 there is also a second notebook, which shows how to use `dtale` to explore data
  
- dtale tutorial: <a target="_blank" href="https://colab.research.google.com/github/nhsengland/HACA-2024-python-in-an-hour/blob/main/Visualising_data_with_dtale.ipynb">
+ dtale tutorial: <a target="_blank" href="https://colab.research.google.com/github/nhsengland/python-in-an-hour/blob/main/Visualising_data_with_dtale.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
