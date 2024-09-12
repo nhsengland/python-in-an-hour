@@ -15,11 +15,9 @@ there is also a second notebook, which shows how to use `dtale` to explore data
 
 -----------
 
-## Description
+## RAP Example Pipeline
 
-### What we'll do
-
-This code demonstrates - in a very simple way - the three main steps common to almost all analytical processes:
+The rap_example_pipeline_python.ipynb notebook, we demonstrates - in a very simple way - the three main steps common to almost all analytical processes:
 
 1. Get the data - in this case we'll download the artificial HES data from the web
 2. Process the data - we'll do a simple aggregation
@@ -93,6 +91,24 @@ For more information on how to use virtual environments and why they are importa
 ### Running in Codespace/Google Colab
 
 You can also load the repo into a GitHub Codespace (click the blue "Code" button and then click "Create Codespace"), or in Google Colab (see the links at the top of the page)
+
+
+## Visualising data with D-Tale
+
+The Visualising_data_with_dtale.ipynb file showcases a Python package called D-Tale, which you can use to visualise and explore datasets. This notebook loads up some publically available Covid data into D-Tale, so that you can play around with it's features.
+
+With just a few lines of code you'll get a GUI interface, from where you can process data, create charts, and perform various kinds of analysis in a few clicks.
+
+One useful feature of this package is that when you do something with it, such as change a data type of a column or create a chart, it can display the Python code it used to carry out that function. So it's a pretty handy learning tool as well as a nice way to explore data.
+
+Try having a look around the D-Tale interface and see what you can do with it. You might try for example...
+
+1. The date column appears to have been imported as a string. Can you convert it to a date type? (hint: click the column name at the top for some transformations you can do)
+2. Could you find a way to group the data by country and count the number of covid cases?
+3. Once you have done step 2, could you use this aggregate data and make a bar chart out of it?
+
+Keep an eye out for the `<>` icons - if you click these, D-Tale will display the Python code it's using under the bonnet!
+
 
 ## Licence
 
