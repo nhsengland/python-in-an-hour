@@ -2,7 +2,7 @@
 
 This repo will give you a very brief introduction to what Python can do for you as someone who works with data, and some of the advantages of using Python over tools like Excel.
 
-We have two notebooks in here
+We have two notebooks in here:
 
 - rap_example_pipeline_python.ipynb: to show some data processing in a simple RAP (Reproducible Analytical Pipelines) process
 - Visualising_data_with_dtale: to show a visualisation tool called D-Tale
