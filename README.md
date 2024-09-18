@@ -2,13 +2,15 @@
 
 This repo will give you a very brief introduction to what Python can do for you as someone who works with data, and some of the advantages of using Python over tools like Excel.
 
-It's designed to be run in Google Colab: <a target="_blank" href="https://colab.research.google.com/github/nhsengland/python-in-an-hour/blob/main/rap_example_pipeline_python.ipynb">
+We have two notebooks in here - one to show some basic data processing, and one to show a visualisation tool called D-Tale.
+
+You can run this code in GitHub Codespaces, locally on any machine with Python installed (see instructions below), or with Google Colab at these links: 
+
+Data processing notebook: <a target="_blank" href="https://colab.research.google.com/github/nhsengland/python-in-an-hour/blob/main/rap_example_pipeline_python.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-there is also a second notebook, which shows how to use `dtale` to explore data
- 
- dtale tutorial: <a target="_blank" href="https://colab.research.google.com/github/nhsengland/python-in-an-hour/blob/main/Visualising_data_with_dtale.ipynb">
+D-Tale notebook: <a target="_blank" href="https://colab.research.google.com/github/nhsengland/python-in-an-hour/blob/main/Visualising_data_with_dtale.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
@@ -90,8 +92,6 @@ git clone https://github.com/nhsengland/python_colab_tutorial.git
 ```
 
 2. Set up your environment.
-
-#### Using pip
 
 If you're using Windows, enter the following commands into the Command Line or Powershell:
 
