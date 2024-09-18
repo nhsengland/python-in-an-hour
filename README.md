@@ -2,11 +2,14 @@
 
 This repo will give you a very brief introduction to what Python can do for you as someone who works with data, and some of the advantages of using Python over tools like Excel.
 
-We have two notebooks in here - one to show some basic data processing, and one to show a visualisation tool called D-Tale.
+We have two notebooks in here
 
-You can run this code in GitHub Codespaces, locally on any machine with Python installed (see instructions below), or with Google Colab at these links: 
+- rap_example_pipeline_python.ipynb: to show some data processing in a simple RAP (Reproducible Analytical Pipelines) process
+- Visualising_data_with_dtale: to show a visualisation tool called D-Tale
 
-Data processing notebook: <a target="_blank" href="https://colab.research.google.com/github/nhsengland/python-in-an-hour/blob/main/rap_example_pipeline_python.ipynb">
+You can run these in GitHub Codespaces, locally on any machine with Python installed (see instructions below), or with Google Colab at these links: 
+
+RAP Example Pipeline notebook: <a target="_blank" href="https://colab.research.google.com/github/nhsengland/python-in-an-hour/blob/main/rap_example_pipeline_python.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
@@ -19,7 +22,7 @@ D-Tale notebook: <a target="_blank" href="https://colab.research.google.com/gith
 
 ## RAP Example Pipeline
 
-The rap_example_pipeline_python.ipynb notebook, demonstrates - in a very simple way - the three main steps common to almost all analytical processes:
+The rap_example_pipeline_python.ipynb notebook demonstrates - in a very simple way - the three main steps common to almost all analytical processes:
 
 1. **Get the data** - in this case we'll download the artificial HES data from the web
 2. **Process the data** - we'll do a simple aggregation
@@ -27,7 +30,7 @@ The rap_example_pipeline_python.ipynb notebook, demonstrates - in a very simple 
 
 ### The data we'll use
 
-We'll use the artificial Hospital Episode Statistics (HES) data. This has the same structure as the real HES used in our industry, but it's mock data - there's no personally identifiable information in it. 
+We'll use the artificial Hospital Episode Statistics (HES) data. This has the same structure as the real HES, but it's mock data with no personally identifiable information in it. 
 
 ### Packages
 
@@ -43,11 +46,9 @@ How this works is like this:
 
 ### Pandas
 
-In this demo, we'll use a package called `Pandas`.
+In this demo, we'll use a data manipulation package called `Pandas`.
 
 Pandas can do pretty much anything you can do with other tools like Excel and SQL. You can filter, group, create aggregations, make pivot tables, and, in combination with other packages, even make charts!
-
-It's one of the most commonly-used packages by data analysts.
 
 ### Running the code
 
@@ -59,15 +60,15 @@ The Visualising_data_with_dtale.ipynb file showcases a Python package called D-T
 
 With just a few lines of code you'll get a GUI interface, from where you can process data, create charts, and perform various kinds of analysis in a few clicks.
 
-One useful feature of this package is that when you do something with it, such as change a data type of a column or create a chart, it can display the Python code it used to carry out that function. So it's a pretty handy learning tool as well as a nice way to explore data.
+One useful feature of this package is that when you do something with it, such as change a data type of a column or create a chart, it can display the Python code it used to carry out that function! So it's a pretty handy learning tool as well as a nice way to explore data.
 
 ### Running the code
 
-As with the example pipeline notebook, just load up the Visualising_data_with_dtale.ipynb file and click Run All. D-Tale should open in a new window.
+As with the example pipeline notebook, just load up the Visualising_data_with_dtale.ipynb file and click Run All. D-Tale should open in a new browser tab.
 
 ### Things to try
 
-Try having a look around the D-Tale interface and see what you can do with it. You might try for example...
+Try having a look around the D-Tale interface and see what you can do with it. For example...
 
 1. The date column appears to have been imported as a string. Can you convert it to a date type? (hint: click the column name at the top for some transformations you can do)
 2. Could you find a way to group the data by country and count the number of covid cases?
