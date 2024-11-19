@@ -6,7 +6,7 @@
 
 
 # Requests - used to collect data
-requests==2.31.0
+requests==2.32.2
 
 # Python version = 3.10.*
 
